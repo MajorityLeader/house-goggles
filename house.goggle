@@ -29,7 +29,7 @@ $site=democrats-science.house.gov,boost=5
 $site=democrats-smallbusiness.house.gov,boost=5
 $site=democrats-taxreform.house.gov,boost=5
 $site=democrats-waysandmeans.house.gov,boost=5
-$site=jec.senate.gov,boost=5
+$site=jec.senate.gov,boost=3
 
 ! Primary domains (medium boost=3)
 $site=house.gov,boost=3
@@ -45,3 +45,6 @@ $site=ogc.house.gov,boost=2
 $site=sergeant.house.gov,boost=2
 $site=oig.house.gov,boost=2
 $site=chaplain.house.gov,boost=2
+
+! Additional *.house.gov sites (lowest boost=1)
+$site=*.house.gov,boost=1
