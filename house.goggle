@@ -32,7 +32,7 @@ $site=democrats-waysandmeans.house.gov,boost=5
 $site=jec.senate.gov,boost=3
 
 ! Primary domains (medium boost=3)
-$site=house.gov,boost=3
+!$site=house.gov,boost=3
 $site=congress.gov,boost=3
 $site=loc.gov,boost=3
 
