@@ -42,6 +42,3 @@ $site=ogc.house.gov
 $site=sergeant.house.gov
 $site=oig.house.gov
 $site=chaplain.house.gov
-
-! Member sites (boost=2)
-$site=*.house.gov
