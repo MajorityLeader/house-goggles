@@ -4,7 +4,7 @@
 ! author: US House Dem Leadership
 ! avatar: #0A3161
 
-$discard  # This ensures NO other sites outside the defined list are returned.
+$discard
 
 ! Committee sites (highest boost=5)
 $site=democrats-rules.house.gov,boost=5
