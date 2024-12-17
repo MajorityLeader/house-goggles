@@ -4,44 +4,44 @@
 ! author: US House Dem Leadership
 ! avatar: #0A3161
 
-$discard
+$discard  # This ensures NO other sites outside the defined list are returned.
 
-! Primary domains (boost=4)
-$site=house.gov
-$site=congress.gov
-$site=loc.gov
+! Committee sites (highest boost=5)
+$site=democrats-rules.house.gov,boost=5
+$site=ethics.house.gov,boost=5
+$site=democrats-appropriations.house.gov,boost=5
+$site=democrats-budget.house.gov,boost=5
+$site=democrats-cha.house.gov,boost=5
+$site=democrats-judiciary.house.gov,boost=5
+$site=democrats-agriculture.house.gov,boost=5
+$site=democrats-intelligence.house.gov,boost=5
+$site=democrats-armedservices.house.gov,boost=5
+$site=democrats-edworkforce.house.gov,boost=5
+$site=democrats-energycommerce.house.gov,boost=5
+$site=democrats-financialservices.house.gov,boost=5
+$site=democrats-foreignaffairs.house.gov,boost=5
+$site=democrats-homeland.house.gov,boost=5
+$site=democrats-transportation.house.gov,boost=5
+$site=democrats-veterans.house.gov,boost=5
+$site=democrats-naturalresources.house.gov,boost=5
+$site=oversightdemocrats.house.gov,boost=5
+$site=democrats-science.house.gov,boost=5
+$site=democrats-smallbusiness.house.gov,boost=5
+$site=democrats-taxreform.house.gov,boost=5
+$site=democrats-waysandmeans.house.gov,boost=5
+$site=jec.senate.gov,boost=5
 
-! Committee sites (boost=3)
-$site=democrats-rules.house.gov
-$site=ethics.house.gov
-$site=democrats-appropriations.house.gov
-$site=democrats-budget.house.gov
-$site=democrats-cha.house.gov
-$site=democrats-judiciary.house.gov
-$site=democrats-agriculture.house.gov
-$site=democrats-intelligence.house.gov
-$site=democrats-armedservices.house.gov
-$site=democrats-edworkforce.house.gov
-$site=democrats-energycommerce.house.gov
-$site=democrats-financialservices.house.gov
-$site=democrats-foreignaffairs.house.gov
-$site=democrats-homeland.house.gov
-$site=democrats-transportation.house.gov
-$site=democrats-veterans.house.gov
-$site=democrats-naturalresources.house.gov
-$site=oversightdemocrats.house.gov
-$site=democrats-science.house.gov
-$site=democrats-smallbusiness.house.gov
-$site=democrats-taxreform.house.gov
-$site=democrats-waysandmeans.house.gov
-$site,path=jec.senate.gov,/public/index.cfm/democrats
+! Primary domains (medium boost=3)
+$site=house.gov,boost=3
+$site=congress.gov,boost=3
+$site=loc.gov,boost=3
 
-! Officer and administrative sites (boost=3)
-$site=clerk.house.gov
-$site=docs.house.gov
-$site=history.house.gov
-$site=cao.house.gov
-$site=ogc.house.gov
-$site=sergeant.house.gov
-$site=oig.house.gov
-$site=chaplain.house.gov
+! Officer and administrative sites (lower boost=2)
+$site=clerk.house.gov,boost=2
+$site=docs.house.gov,boost=2
+$site=history.house.gov,boost=2
+$site=cao.house.gov,boost=2
+$site=ogc.house.gov,boost=2
+$site=sergeant.house.gov,boost=2
+$site=oig.house.gov,boost=2
+$site=chaplain.house.gov,boost=2
