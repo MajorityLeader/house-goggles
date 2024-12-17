@@ -46,5 +46,5 @@ $site=sergeant.house.gov,boost=2
 $site=oig.house.gov,boost=2
 $site=chaplain.house.gov,boost=2
 
-! Additional *.house.gov sites (lowest boost=1)
-$site=*.house.gov,boost=1
+! All other house.gov subdomains (lowest boost=1)
+|https://*.house.gov^$boost=1
