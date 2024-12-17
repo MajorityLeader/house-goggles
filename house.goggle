@@ -47,4 +47,4 @@ $site=oig.house.gov,boost=2
 $site=chaplain.house.gov,boost=2
 
 ! All other house.gov subdomains (lowest boost=1)
-|https://*.house.gov^$boost=1
+!|https://*.house.gov^$boost=1
