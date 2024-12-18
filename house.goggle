@@ -1,4 +1,4 @@
-! name: House.gov Websites
+! name: Democratic House.gov Websites
 ! description: Official U.S. House of Representatives websites and Congress.gov, with priority weighting
 ! public: false
 ! author: US House Dem Leadership
@@ -29,10 +29,15 @@ $site=democrats-science.house.gov,boost=5
 $site=democrats-smallbusiness.house.gov,boost=5
 $site=democrats-taxreform.house.gov,boost=5
 $site=democrats-waysandmeans.house.gov,boost=5
+
 $site=jec.senate.gov,boost=3
 
+! Leadership sites
+$site=democraticleader.gov
+$site=democraticwhip.gov
+$site=rlc.house.gov
+
 ! Primary domains (medium boost=3)
-!$site=house.gov,boost=3
 $site=congress.gov,boost=3
 $site=loc.gov,boost=3
 
@@ -45,6 +50,30 @@ $site=ogc.house.gov,boost=2
 $site=sergeant.house.gov,boost=2
 $site=oig.house.gov,boost=2
 $site=chaplain.house.gov,boost=2
+
+! Additional Suggested Sites
+
+! House Democratic Caucus & Affiliated Caucuses (medium boost=3)
+$site=democrats.house.gov,boost=3
+$site=cbc.house.gov,boost=3
+$site=chc.house.gov,boost=3
+$site=capac-chu.house.gov,boost=3
+$site=progressives.house.gov,boost=3
+$site=newdemocratcoalition.house.gov,boost=3
+$site=bluedogcaucus-cuellar.house.gov,boost=3
+
+! Senate Democrats (medium boost=3)
+$site=democrats.senate.gov,boost=3
+
+! Legislative Support Agencies (medium boost=3)
+$site=cbo.gov,boost=3
+$site=gao.gov,boost=3
+$site=gpo.gov,boost=3
+$site=crsreports.congress.gov,boost=3
+
+! Additional Support/Reference (lower boost=2)
+$site=ocwr.gov,boost=2
+$site=uscode.house.gov,boost=2
 
 ! All other house.gov subdomains (lowest boost=1)
 !|https://*.house.gov^$boost=1
