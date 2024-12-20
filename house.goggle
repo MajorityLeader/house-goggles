@@ -1,5 +1,5 @@
-! name: Democratic House.gov Websites
-! description: Official U.S. House of Representatives websites and Congress.gov, with priority weighting
+! name: Democratic Executive and Legislative Websites
+! description: Official U.S. House of Representatives websites and Congress.gov, and others, with priority weighting
 ! public: false
 ! author: US House Dem Leadership
 ! avatar: #0A3161
@@ -206,6 +206,11 @@ $site=wilson.house.gov
 $site=nikemawilliams.house.gov
 $site=wild.house.gov
 
-! Commerce.gov Press Releases
+! Administrative Press Releases
 |https://www.commerce.gov/news/press-releases/2024^
 |https://www.commerce.gov/news/press-releases/2023^
+|https://www.dhs.gov/hsi/news/2024^
+|https://www.dhs.gov/hsi/news/2023^
+|https://www.state.gov/press-releases^
+|https://www.whitehouse.gov/omb^
+|https://www.whitehouse.gov/briefing-room^
